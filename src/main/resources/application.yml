@@ -6,4 +6,11 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/wagnerkaba/psychic-potato.git
+          uri: https://github.com/oswaldoneto/dio-experts-config.git
+
+#Criei um github para usar a uri em https://github.com/wagnerkaba/config-demo
+#No entanto, esta uri não funciona
+#Se eu executo este projeto e entro em http://localhost:8888/actuator/health
+#O resultado é STATUS: DOWN
+#Mas se eu utilizo a uri do oswaldoneto, o resultado é STATUS:UP
+#Tentar descobrir o que deu errado depois
